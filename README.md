@@ -1,3 +1,3 @@
 # Projects
 Projects
-This is a repository for the various projects that will be completed
+First project using only CSS and HTML learned
