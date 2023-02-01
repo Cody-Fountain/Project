@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    flex: 1;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 16px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.info {
+    font:48px extra-bold #F9FAF8;
+}
+
+.left button {
+    background: #3882F6;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.right ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+}
+
+.rightphoto {
+    align-self: flex-end;
+}
+
+.rightphoto img {
+   width: auto;
+   height: 125.867px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main {
+    flex: 1;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+}
+
+li img {
+    align-self: center;
+    border-radius: 5px;
+    width: 130px;
+    height: 150px;
+}
+
+li.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
+    height: 200px;
+    margin-bottom: 16px;
+}
+
+blockquote {
+    max-width: 500px;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+.quote {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5d9df;
+    padding: 16px;
+}
+
+.action {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 32px;
+}
+
+.actionitemscontainer {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    gap: 32px;
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 50px;
+
+}
+
+.action button {
+    align-self: center;
+    height: fit-content;
+    padding: 4px 20px;
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.action button {
+    flex-shrink: 0;
+}
+ 
+footer {
+    flex: 1;
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* dark background color (hero and footer) --> #1F2937
+Hero Main text ("this website is awesome") --> 48px extra-bold #F9FAF8
+Hero Secondary text, HEader Link Text --> 18px #E5E7EB
+Header Logo text --> 24px #F9FAF8
+--------------------------
+Button color, call to action background color --> #3882F6
+information header text--> 36px extra-bold #1F2937
+--------------------------
+Quote section background color --> #E5E7EB
+Quote text --> 36px light italic #1F2937 */
